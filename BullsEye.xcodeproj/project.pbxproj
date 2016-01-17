@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5000AF0F1B733647000781F9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5000AF0E1B733647000781F9 /* AboutViewController.swift */; };
+		501424921B73AA74005B1999 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 501424901B73AA74005B1999 /* LaunchScreen.xib */; };
 		50D269711B60D479004A16EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D269701B60D479004A16EA /* AppDelegate.swift */; };
 		50D269731B60D479004A16EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D269721B60D479004A16EA /* ViewController.swift */; };
 		50D269761B60D479004A16EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D269741B60D479004A16EA /* Main.storyboard */; };
 		50D269781B60D479004A16EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D269771B60D479004A16EA /* Images.xcassets */; };
-		50D2697B1B60D479004A16EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50D269791B60D479004A16EA /* LaunchScreen.xib */; };
 		50D269871B60D479004A16EA /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D269861B60D479004A16EA /* BullsEyeTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,13 +27,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5000AF0E1B733647000781F9 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		501424911B73AA74005B1999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		50D2696B1B60D479004A16EA /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D2696F1B60D479004A16EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50D269701B60D479004A16EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D269721B60D479004A16EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50D269751B60D479004A16EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50D269771B60D479004A16EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		50D2697A1B60D479004A16EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		50D269801B60D479004A16EA /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D269851B60D479004A16EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50D269861B60D479004A16EA /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
@@ -80,8 +82,9 @@
 				50D269701B60D479004A16EA /* AppDelegate.swift */,
 				50D269721B60D479004A16EA /* ViewController.swift */,
 				50D269741B60D479004A16EA /* Main.storyboard */,
+				5000AF0E1B733647000781F9 /* AboutViewController.swift */,
 				50D269771B60D479004A16EA /* Images.xcassets */,
-				50D269791B60D479004A16EA /* LaunchScreen.xib */,
+				501424901B73AA74005B1999 /* LaunchScreen.xib */,
 				50D2696E1B60D479004A16EA /* Supporting Files */,
 			);
 			path = BullsEye;
@@ -156,6 +159,7 @@
 		50D269631B60D479004A16EA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Yingbo Wang";
 				TargetAttributes = {
@@ -193,7 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50D269761B60D479004A16EA /* Main.storyboard in Resources */,
-				50D2697B1B60D479004A16EA /* LaunchScreen.xib in Resources */,
+				501424921B73AA74005B1999 /* LaunchScreen.xib in Resources */,
 				50D269781B60D479004A16EA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5000AF0F1B733647000781F9 /* AboutViewController.swift in Sources */,
 				50D269731B60D479004A16EA /* ViewController.swift in Sources */,
 				50D269711B60D479004A16EA /* AppDelegate.swift in Sources */,
 			);
@@ -236,20 +241,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		501424901B73AA74005B1999 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				501424911B73AA74005B1999 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
 		50D269741B60D479004A16EA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				50D269751B60D479004A16EA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		50D269791B60D479004A16EA /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				50D2697A1B60D479004A16EA /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -409,6 +414,7 @@
 				50D2698C1B60D479004A16EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50D2698D1B60D479004A16EA /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +423,7 @@
 				50D2698F1B60D479004A16EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
